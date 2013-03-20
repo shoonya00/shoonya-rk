@@ -1,0 +1,105 @@
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+th, td {
+  vertical-align: top;
+}
+th {
+  background: #404853;
+  background: linear-gradient(#687587, #404853);
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-size: 11px;
+  padding: 9px 8px 7px 8px;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6);
+  text-transform: uppercase;
+}
+th.qty, th.price {
+  padding: 9px 20px 7px 20px;
+  text-align: center;
+}
+th.item {
+  border-left: 0;
+}
+th.price {
+  border-right: 0;
+}
+td {
+  padding: 8px;
+}
+tbody td {
+  border-bottom: 1px solid #c6c9cc;
+  border-left: 1px solid #e4e7eb;
+  border-right: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6);
+}
+tbody tr:nth-child(even) td {
+  background: #e8eae9;
+  background: linear-gradient(#f7faf9, #e8eae9);
+  border-left: 1px solid #d5d8db;
+}
+tbody td.item, tbody tr:nth-child(even) td.item {
+  border-left: 1px solid #c6c9cc;
+}
+tbody td.item {
+  color: #404853;
+  font-weight: bold;
+}
+tbody td.stock, tbody td.qty, tbody td.price {
+  vertical-align: middle;
+}
+tbody td.stock, tbody td.qty {
+  text-align: center;
+}
+tbody td.price {
+  border-right: 1px solid #c6c9cc;
+  text-align: right;
+}
+tfoot td {
+  border-bottom: 1px solid #c6c9cc;
+  border-left: 1px solid #e4e7eb;
+  border-right: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6);
+  text-align: right;
+}
+tfoot td.title {
+  border-left: 1px solid #c6c9cc;
+}
+tfoot td.price {
+  border-right: 1px solid #c6c9cc;
+}
+tfoot tr.sub td {
+  border-bottom: 0;
+  padding: 8px 8px 0 8px;
+}
+tfoot tr.tax td {
+  padding: 0 8px 8px 8px;
+}
+tfoot tr.sub td, tfoot tr.tax td {
+  color: #8c8c8c;
+  font-size: 12px;
+}
+tfoot tr.total td {
+  background: #e8eae9;
+  background: linear-gradient(#f7faf9, #e8eae9);
+  color: #404853;
+  font-size: 14px;
+  font-weight: bold;
+}
+tfoot tr.total td.price {
+  border-left: 1px solid #d5d8db;
+}
+.in {
+  color: #00b515;
+}
+.out {
+  color: #b50000;
+}
+span {
+  color: #8c8c8c;
+  display: block;
+  font-size: 12px;
+  font-weight: normal;
+}
